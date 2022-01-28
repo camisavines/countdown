@@ -1,0 +1,26 @@
+.home-container {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('https://thehill.com/sites/default/files/ca_iub_090420istock.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: bisque; */
+
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-container h1 {
+    margin: 0;
+}
+
+.countdown {
+    font-size: 6em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* font-weight: bold; */
+}

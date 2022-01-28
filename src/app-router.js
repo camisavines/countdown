@@ -8,7 +8,7 @@ import * as ROUTES from "./routes";
 const AppRouter = () => {
   return (
     <Router>
-      <h1>Home page</h1>
+      {/* <h1>Home page</h1> */}
 
       <Routes>
 

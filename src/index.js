@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import AppRouter from './app-router'
+import AppRouter from './app-router';
 
 
 ReactDOM.render(

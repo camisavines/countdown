@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* background-color: bisque; */
+    font-family: 'Oswald', sans-serif;
 
     color: white;
     display: flex;
@@ -22,5 +22,8 @@
     font-size: 6em;
     margin-top: 25px;
     margin-bottom: 25px;
-    /* font-weight: bold; */
+    padding: 25px;
+    
+    /* font-family: 'IBM Plex Mono', monospace; */
+    background-color: rgba(255, 0, 0, 0.25);
 }

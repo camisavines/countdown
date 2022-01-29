@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import '../css/home.css'
 
-const Home = () => {
+const SpringBreak = () => {
 
-    var countDownDate = new Date("May 7, 2022 12:00:00").getTime();
+    var countDownDate = new Date("Mar 11, 2022 12:00:00").getTime();
 
     var x = setInterval(function() {
         var now = new Date().getTime();
@@ -29,14 +29,14 @@ const Home = () => {
 
 
     return (
-        <div className="countdown-container home">
+        <div className="countdown-container spring">
             <div>
-                <h1>Graduation!</h1>
-                <p className="countdown home" id="demo"></p>
-                <h4>Camisa is graduating from college!!!</h4>
+                <h1>Spring Break!</h1>
+                <p className="countdown spring" id="demo"></p>
+                <h4>Apartment Shopping!!</h4>
             </div>
         </div>
     )
 }
 
-export default Home;
+export default SpringBreak;

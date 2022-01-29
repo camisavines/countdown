@@ -1,21 +1,15 @@
-.home-container {
+.countdown-container {
     width: 100vw;
     height: 100vh;
     text-align: center;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('https://thehill.com/sites/default/files/ca_iub_090420istock.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     font-family: 'Oswald', sans-serif;
-
-    color: white;
+    
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.home-container h1 {
-    margin: 0;
 }
 
 .countdown {
@@ -23,7 +17,24 @@
     margin-top: 25px;
     margin-bottom: 25px;
     padding: 25px;
-    
     /* font-family: 'IBM Plex Mono', monospace; */
+}
+
+.countdown-container.home {
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('https://thehill.com/sites/default/files/ca_iub_090420istock.jpg');
+}
+
+.countdown.home {
     background-color: rgba(255, 0, 0, 0.25);
 }
+
+.countdown-container.spring {
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('https://m.foolcdn.com/media/millionacres/images/austin_tx.max-1200x600.jpg');
+}
+
+.countdown.spring {
+    /* background-color: rgba(0, 0, 0, 0.25); */
+}
+

@@ -1,40 +1,62 @@
 .countdown-container {
-    width: 100vw;
-    height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     font-family: 'Oswald', sans-serif;
     
     display: flex;
     align-items: center;
     justify-content: center;
+
+    padding: 50px 0px;
 }
 
 .countdown {
-    font-size: 6em;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    padding: 25px;
+    text-align: center;
+
+    width: 100%;
+    margin: 50px 0px;
+    padding: 20px 70px;
     /* font-family: 'IBM Plex Mono', monospace; */
 }
 
+.countdown h1 {
+    font-size: 60pt;
+}
+
+.countdown .row div::before {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.btn { border: none; }
+
+
+
+/* Home page background and styling */
 .countdown-container.home {
     color: white;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('https://thehill.com/sites/default/files/ca_iub_090420istock.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('https://thehill.com/sites/default/files/ca_iub_090420istock.jpg');
 }
 
 .countdown.home {
-    background-color: rgba(255, 0, 0, 0.25);
+    border: 5px solid rgba(255, 0, 0, 0.25);
 }
 
+
+/* Spring break page */
 .countdown-container.spring {
     color: white;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('https://m.foolcdn.com/media/millionacres/images/austin_tx.max-1200x600.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url('https://m.foolcdn.com/media/millionacres/images/austin_tx.max-1200x600.jpg');
 }
 
 .countdown.spring {
-    /* background-color: rgba(0, 0, 0, 0.25); */
+    border: 5px solid rgba(255, 165, 0, 0.95);
+    /* background-color: rgba(255, 165, 0, 0.75); */
 }
 

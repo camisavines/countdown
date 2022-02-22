@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 import * as ROUTES from "../routes";
 import '../css/home.css'
 
-const SpringBreak = () => {
-    var countDownDate = new Date("Mar 11, 2022 12:00:00").getTime();
-
+const Work = () => {
+    var countDownDate = new Date("May 23, 2022 08:00:00").getTime();
     const [daysLeft, setDays] = useState(0);
     const [hoursLeft, setHours] = useState(0);
     const [minutesLeft, setMinutes] = useState(0);
     const [secondsLeft, setSeconds] = useState(0);
+
 
     var x = setInterval(function() {
         var now = new Date().getTime();
@@ -23,16 +23,11 @@ const SpringBreak = () => {
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 
-
         setDays(days);
         setHours(hours);
         setMinutes(minutes);
         setSeconds(seconds);
 
-
-        // Output the result in an element with id="demo"
-        // document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-            
         // If the count down is over, write some text 
         if (distance < 0) {
             clearInterval(x);
@@ -42,11 +37,11 @@ const SpringBreak = () => {
 
 
     return (
-        <div className="countdown-container spring">
+        <div className="countdown-container work">
             <div>
-                <h1>Spring Break!</h1>
+                <h1>Work Life</h1>
 
-                <div className="countdown spring">
+                <div className="countdown work">
                     <div className="row" id="demo">
                         <div className="col-sm-3">
                             <h1>{daysLeft}</h1> 
@@ -68,18 +63,19 @@ const SpringBreak = () => {
                 </div>
 
 
-                <h4>Apartment Shopping!!</h4>
+                <h4>Camisa has a job--a really good job. Yuh!</h4>
 
-                <div style={{position: "fixed", bottom: "25px", right:"25px"}}>
-                    <Link to={ROUTES.WORK}>
-                        <button type="button" className="btn btn-primary btn-floating" style={{height: "60px", width: "60px", borderRadius: "50%", backgroundColor: "rgba(255, 165, 0, 0.75)"}}>
-                            <i class="material-icons">work</i>
-                        </button>
-                    </Link>
-                </div>
+            </div>
+
+            <div style={{position: "fixed", bottom: "25px", right:"25px"}}>
+                <Link to={ROUTES.HOME}>
+                    <button type="button" className="btn btn-primary btn-floating" style={{height: "60px", width: "60px", borderRadius: "50%", backgroundColor: "rgba(75, 107, 175, 1)"}}>
+                        <i class="material-icons">class</i>
+                    </button>
+                </Link>
             </div>
         </div>
     )
 }
 
-export default SpringBreak;
+export default Work;

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import * as ROUTES from "../routes";
+import MyNav from "../shared/nav";
 import '../css/home.css'
 
 const Work = () => {
@@ -67,13 +66,7 @@ const Work = () => {
 
             </div>
 
-            <div style={{position: "fixed", bottom: "25px", right:"25px"}}>
-                <Link to={ROUTES.HOME}>
-                    <button type="button" className="btn btn-primary btn-floating" style={{height: "60px", width: "60px", borderRadius: "50%", backgroundColor: "rgba(75, 107, 175, 1)"}}>
-                        <i class="material-icons">class</i>
-                    </button>
-                </Link>
-            </div>
+            <MyNav color="rgba(75, 107, 175, 0.75)" />
         </div>
     )
 }

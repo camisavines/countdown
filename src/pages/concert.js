@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import MyNav from "../shared/nav";
 import '../css/home.css'
 
-const SpringBreak = () => {
-    var countDownDate = new Date("Mar 11, 2022 12:00:00").getTime();
+const Concert = () => {
+    var countDownDate = new Date("May 1, 2022 19:30:00").getTime();
 
     const [daysLeft, setDays] = useState(0);
     const [hoursLeft, setHours] = useState(0);
@@ -41,11 +41,11 @@ const SpringBreak = () => {
 
 
     return (
-        <div className="countdown-container spring">
+        <div className="countdown-container concert">
             <div>
-                <h1>Spring Break!</h1>
+                <h1>H.E.R. x BOMM</h1>
 
-                <div className="countdown spring">
+                <div className="countdown concert">
                     <div className="row" id="demo">
                         <div className="col-sm-3">
                             <h1>{daysLeft}</h1> 
@@ -67,12 +67,13 @@ const SpringBreak = () => {
                 </div>
 
 
-                <h4>Apartment Shopping!!</h4>
+                <h4>Me and bestie are going to see the fav!!!</h4>
 
-                <MyNav color="rgba(255, 165, 0, 0.75)" />
+                
+                <MyNav color="rgba(160, 82, 45, 1)" />
             </div>
         </div>
     )
 }
 
-export default SpringBreak;
+export default Concert;

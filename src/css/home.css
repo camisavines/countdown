@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
 
-    padding: 50px 0px;
+    padding: 50px 10px;
 }
 
 .countdown {
@@ -25,7 +25,7 @@
 }
 
 .countdown h1 {
-    font-size: 60pt;
+    font-size: 40pt;
 }
 
 .countdown .row div::before {
@@ -34,7 +34,18 @@
     align-content: center;
 }
 
-.btn { border: none; }
+.mynav {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.btn { 
+    border: none; 
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
 
 
 
@@ -69,6 +80,19 @@
 
 .countdown.work {
     border: 5px solid rgba(75, 107, 175, 1);
+    /* background-color: rgba(255, 165, 0, 0.75); */
+}
+
+
+/* Concert page */
+.countdown-container.concert {
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url('https://badfeelingmag.com/wp-content/uploads/2018/11/H-E-R-by-eva-blue-12-001.jpg');
+    /* background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url('https://dynamicmedia.livenationinternational.com/Media/x/f/p/8cc56d7f-0ba2-40d5-8d51-45508d2e9de7.jpg'); */
+}
+
+.countdown.concert {
+    border: 5px solid rgba(160, 82, 45, 1);
     /* background-color: rgba(255, 165, 0, 0.75); */
 }
 

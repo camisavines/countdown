@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import * as ROUTES from "../routes";
+import MyNav from "../shared/nav";
 import '../css/home.css'
 
 const Home = () => {
@@ -67,13 +66,7 @@ const Home = () => {
 
             </div>
 
-            <div style={{position: "fixed", bottom: "25px", right:"25px"}}>
-                <Link to={ROUTES.SPRING}>
-                    <button type="button" className="btn btn-primary btn-floating" style={{height: "60px", width: "60px", borderRadius: "50%", backgroundColor: "rgba(255, 0, 0, 0.25)"}}>
-                        <i class="material-icons">airplanemode_active</i>
-                    </button>
-                </Link>
-            </div>
+            <MyNav color="rgba(255, 0, 0, 0.25)" />
         </div>
     )
 }

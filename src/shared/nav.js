@@ -16,16 +16,6 @@ const MyNav = ({ color }) => {
           <i class="material-icons">class</i>
         </button>
       </Link>
-      
-      <Link to={ROUTES.SPRING}>
-        <button 
-          type="button" 
-          style={{backgroundColor: `${color}`}}
-          className={`btn btn-primary btn-floating ${location.pathname === ROUTES.SPRING ? "hide" : ""}`} 
-        >
-          <i class="material-icons">airplanemode_active</i>
-        </button>
-      </Link>
 
       <Link to={ROUTES.CONCERT}>
         <button 

@@ -59,19 +59,6 @@
     border: 5px solid rgba(255, 0, 0, 0.25);
 }
 
-
-/* Spring break page */
-.countdown-container.spring {
-    color: white;
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url('https://m.foolcdn.com/media/millionacres/images/austin_tx.max-1200x600.jpg');
-}
-
-.countdown.spring {
-    border: 5px solid rgba(255, 165, 0, 0.95);
-    /* background-color: rgba(255, 165, 0, 0.75); */
-}
-
-
 /* Starting work page */
 .countdown-container.work {
     color: white;

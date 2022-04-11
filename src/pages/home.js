@@ -3,7 +3,7 @@ import MyNav from "../shared/nav";
 import '../css/home.css'
 
 const Home = () => {
-    var countDownDate = new Date("May 7, 2022 12:00:00").getTime();
+    var countDownDate = new Date("May 6, 2022 23:55:00").getTime();
     const [daysLeft, setDays] = useState(0);
     const [hoursLeft, setHours] = useState(0);
     const [minutesLeft, setMinutes] = useState(0);

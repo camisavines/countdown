@@ -17,7 +17,7 @@ const MyNav = ({ color }) => {
         </button>
       </Link>
 
-      <Link to={ROUTES.CONCERT}>
+      {/* <Link to={ROUTES.CONCERT}>
         <button 
           type="button" 
           style={{backgroundColor: `${color}`}}
@@ -25,7 +25,7 @@ const MyNav = ({ color }) => {
         >
           <i class="material-icons">music_note</i>
         </button>
-      </Link>
+      </Link> */}
       
       <Link to={ROUTES.WORK}>
       <button 

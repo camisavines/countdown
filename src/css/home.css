@@ -52,7 +52,7 @@
 /* Home page background and styling */
 .countdown-container.home {
     color: white;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('https://thehill.com/sites/default/files/ca_iub_090420istock.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('https://assets3.thrillist.com/v1/image/3058299/1200x600/scale;');
 }
 
 .countdown.home {

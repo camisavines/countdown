@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from './pages/home';
 import Work from './pages/work';
-import Concert from './pages/concert';
+// import Concert from './pages/concert';
 import * as ROUTES from "./routes";
 
 const AppRouter = () => {
@@ -13,7 +13,7 @@ const AppRouter = () => {
       <Routes>
         <Route exact path={ROUTES.HOME} element={<Home />} />
         <Route exact path={ROUTES.WORK} element={<Work />} />
-        <Route exact path={ROUTES.CONCERT} element={<Concert />} />
+        {/* <Route exact path={ROUTES.CONCERT} element={<Concert />} /> */}
       </Routes>
     </Router>
   );

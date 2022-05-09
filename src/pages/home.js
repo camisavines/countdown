@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import MyNav from "../shared/nav";
 import '../css/home.css'
 
 const Home = () => {
-    var countDownDate = new Date("May 7, 2022 9:55:00").getTime();
+    var countDownDate = new Date("June 22, 2022 23:59:00").getTime();
     const [daysLeft, setDays] = useState(0);
     const [hoursLeft, setHours] = useState(0);
     const [minutesLeft, setMinutes] = useState(0);
@@ -38,7 +37,7 @@ const Home = () => {
     return (
         <div className="countdown-container home">
             <div>
-                <h1>Graduation!</h1>
+                <h1>My Birthday!</h1>
 
                 <div className="countdown home">
                     <div className="row" id="demo">
@@ -62,11 +61,9 @@ const Home = () => {
                 </div>
 
 
-                <h4>Camisa is graduating from college!!!</h4>
+                {/* <h4>Camisa is graduating from college!!!</h4> */}
 
             </div>
-
-            <MyNav color="rgba(255, 0, 0, 0.25)" />
         </div>
     )
 }

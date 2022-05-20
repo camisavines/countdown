@@ -23,18 +23,6 @@
 
 
 
-/* Starting work page */
-.countdown-container.work {
-    color: white;
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url('https://d1tm14lrsghf7q.cloudfront.net/public/media/31140/conversions/29964-thumb.jpg');
-}
-
-.countdown.work {
-    border: 5px solid rgba(75, 107, 175, 1);
-    /* background-color: rgba(255, 165, 0, 0.75); */
-}
-
-
 /* Concert page */
 .countdown-container.concert {
     color: white;

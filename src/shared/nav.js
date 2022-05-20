@@ -1,13 +1,13 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
-import * as ROUTES from "../routes";
+// import { Link, useLocation } from "react-router-dom";
+// import * as ROUTES from "../routes";
 
 const MyNav = ({ color }) => {
-  const location = useLocation();
+  // const location = useLocation();
 
   return (
     <div className="mynav">
-      <Link to={ROUTES.HOME}>
+      {/* <Link to={ROUTES.HOME}>
         <button 
           type="button" 
           style={{backgroundColor: `${color}`}}
@@ -15,7 +15,7 @@ const MyNav = ({ color }) => {
         >
           <i class="material-icons">class</i>
         </button>
-      </Link>
+      </Link> */}
 
       {/* <Link to={ROUTES.CONCERT}>
         <button 
@@ -27,7 +27,7 @@ const MyNav = ({ color }) => {
         </button>
       </Link> */}
       
-      <Link to={ROUTES.WORK}>
+      {/* <Link to={ROUTES.WORK}>
       <button 
           type="button" 
           style={{backgroundColor: `${color}`}}
@@ -35,7 +35,18 @@ const MyNav = ({ color }) => {
         >
           <i class="material-icons">work</i>
         </button>
-      </Link>
+      </Link> */}
+
+
+      <a href="https://rattle-yard-c3b.notion.site/Miami-Itinerary-13ddbb4a49ea4155ac34a0efd58dd5ff">
+        <button 
+          type="button" 
+          style={{backgroundColor: `${color}`}}
+          className="btn btn-primary btn-floating" 
+        >
+          <i class="material-icons">menu</i>
+        </button>
+      </a>
 
     </div>
   )

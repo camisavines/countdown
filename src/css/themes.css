@@ -1,13 +1,12 @@
 /* Home page background and styling */
 .countdown-container.home {
     color: white;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url('https://images.cvent.com/CSN/c2390fb5-ceb0-44fe-9468-06282c9b008f/images/3280405a76e246509cff486a27c2da30_LARGE!_!86feaa849529caa335e5434fc4f24d03.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url('https://images.cvent.com/CSN/c2390fb5-ceb0-44fe-9468-06282c9b008f/images/3280405a76e246509cff486a27c2da30_LARGE!_!86feaa849529caa335e5434fc4f24d03.jpg');
 }
 
 .countdown.home {
     border: 5px solid rgb(255,146,72);
 }
-
 
 
 /* Birthday */

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import MyNav from "../shared/nav";
 import '../css/themes.css'
 
 const Home = () => {
@@ -37,7 +38,7 @@ const Home = () => {
     return (
         <div className="countdown-container home">
             <div>
-                <h1>Bride and Boujee Crew</h1>
+                <h1 style={{fontSize: "40pt"}}>Bride and Boujee Crew</h1>
 
                 <div className="countdown home">
                     <div className="row" id="demo">
@@ -61,7 +62,10 @@ const Home = () => {
                 </div>
 
 
+                <h3>Click the menu button to view the trip itinerary and details.</h3>
                 <h5>Yes, Camille's kid is smart af.</h5>
+
+                <MyNav color='rgb(255,146,72)' />
 
             </div>
         </div>

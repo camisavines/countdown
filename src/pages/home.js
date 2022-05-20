@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import '../css/home.css'
+import '../css/themes.css'
 
 const Home = () => {
-    var countDownDate = new Date("June 22, 2022 23:59:00").getTime();
+    var countDownDate = new Date("August 10, 2022 23:59:00").getTime();
     const [daysLeft, setDays] = useState(0);
     const [hoursLeft, setHours] = useState(0);
     const [minutesLeft, setMinutes] = useState(0);
@@ -37,7 +37,7 @@ const Home = () => {
     return (
         <div className="countdown-container home">
             <div>
-                <h1>My Birthday!</h1>
+                <h1>Bride and Boujee Crew</h1>
 
                 <div className="countdown home">
                     <div className="row" id="demo">
@@ -61,7 +61,7 @@ const Home = () => {
                 </div>
 
 
-                {/* <h4>Camisa is graduating from college!!!</h4> */}
+                <h5>Yes, Camille's kid is smart af.</h5>
 
             </div>
         </div>

@@ -27,7 +27,7 @@
 }
 
 .countdown h1 {
-  font-size: 40pt;
+  /* font-size: 40pt; */
 }
 
 .countdown .row div::before {

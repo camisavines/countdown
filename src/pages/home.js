@@ -38,23 +38,23 @@ const Home = () => {
     return (
         <div className="countdown-container home">
             <div>
-                <h1 style={{fontSize: "40pt"}}>Bride and Boujee Crew</h1>
+                <h1>Bride and Boujee Crew</h1>
 
-                <div className="countdown home">
+                <div className="countdown home mw-75-sm">
                     <div className="row" id="demo">
-                        <div className="col-sm-3">
+                        <div className="col-xs-3">
                             <h1>{daysLeft}</h1> 
                             <p>Days</p>
                         </div>
-                        <div className="col-sm-3">
+                        <div className="col-xs-3">
                             <h1>{hoursLeft}</h1> 
                             <p>Hours</p>
                         </div>
-                        <div className="col-sm-3">
+                        <div className="col-xs-3">
                             <h1>{minutesLeft}</h1> 
                             <p>Minutes</p>
                         </div>
-                        <div className="col-sm-3">
+                        <div className="col-xs-3">
                             <h1>{secondsLeft}</h1> 
                             <p>Seconds</p>
                         </div>
